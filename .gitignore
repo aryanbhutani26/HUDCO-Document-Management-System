@@ -5,6 +5,8 @@
 .env.staging
 *.env
 
+.venv
+
 # Logs
 logs/
 *.log
