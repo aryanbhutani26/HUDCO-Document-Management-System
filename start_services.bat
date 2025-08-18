@@ -1,0 +1,13 @@
+@echo off
+echo Starting PDF DMS Services...
+
+echo Starting ClamAV daemon...
+start "ClamAV" "C:\Program Files\ClamAV\clamd.exe"
+
+echo Starting PostgreSQL (if not already running)...
+net start postgresql-x64-15
+
+echo Starting Flask application...
+python app.py
+
+pause

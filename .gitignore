@@ -1,0 +1,33 @@
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+.venv
+
+# Logs
+logs/
+*.log
+pdf-questions-dms/logs/
+pdf-questions-dms/logs/*.log
+clamav.log
+
+# Temporary files
+temp/
+pdf-questions-dms/temp/
+*.tmp
+
+pdf-questions-dms/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node modules (if applicable)
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
