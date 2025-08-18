@@ -19,6 +19,8 @@ temp/
 pdf-questions-dms/temp/
 *.tmp
 
+pdf-questions-dms/
+
 # System files
 .DS_Store
 Thumbs.db
