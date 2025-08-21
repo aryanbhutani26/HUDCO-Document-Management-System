@@ -34,3 +34,4 @@ Keep clear notes/screenshots of each security layer.
 Document your rationale for defenses against malware, prompt injection, and unauthorized access.
 
 Prepare a short, technical summary for your final report or demo.
+
